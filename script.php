@@ -3,7 +3,7 @@
 // Vérification que l'extension curl est bien activée (si surligné, activation ok):
 
 //phpinfo();
-if(isset($_GET['ville'])) {
+if(isset($_GET['ville']) && !empty($_GET['ville'])) {
     $input = $_GET['ville'];
 
     $url = "http://api.openweathermap.org/data/2.5/weather?q=" . $input . "&units=metric&APPID=424498922b6222b4490bcd04c5ffb79d";
