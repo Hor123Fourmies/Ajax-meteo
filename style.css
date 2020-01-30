@@ -1,0 +1,50 @@
+body{
+    background: #2b978c;
+    color: white;
+    font-family: "Segoe UI";
+}
+
+h1{
+    text-align: center;
+}
+
+.row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#boutonValider{
+    background: white;
+    color: #2b978c;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100px;
+    height: 30px;
+    border-radius: 2em;
+
+}
+
+#bout{
+    text-align: center;
+}
+
+#ville{
+    padding-left: 10px;
+    width: 250px;
+}
+
+#date{
+    text-align: center;
+    font-size: 26px;
+}
+
+#temperatureActuelle{
+    font-size: 86px;
+    text-align: center;
+}
+
+#blocInfo{
+    padding-top: 5px;
+
+}

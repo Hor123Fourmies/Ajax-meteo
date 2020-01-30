@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JS-Meteo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="container">
+    <div class="row">
+        <h1>Météo</h1>
+            </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <label for="ville">Ville :</label>
+            <input type="text" id="ville" name="ville" placeholder="Entrer le nom de votre ville">
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12" id="bout">
+            <button id="boutonValider">Valider</button>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12" id="date"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6" id="temperatureActuelle"></div>
+        <div class="col-lg-6" id="blocInfo">
+            <div class = "col" id="tempMax"></div>
+            <div class = "col" id="tempMin"></div>
+            <div class = "col" id="pressAtm"></div>
+            <div class = "col" id="vitVent"></div>
+            <div class = "col" id="humidite"></div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-2" id="long"></div>
+        <div class="col-lg-2" id="lat"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-12" id="carte"></div>
+    </div>
+
+</div>
+
+
+
+<script src="exercice.js"></script>
+</body>
+</html>
