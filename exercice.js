@@ -83,8 +83,17 @@ function valider() {
 
 }
 
+var bouton = document.getElementById('boutonValider');
 
-document.getElementById('boutonValider').addEventListener('click', valider);
+bouton.addEventListener('click', valider);
 
 
 
+document.body.addEventListener('keyup', function (e) {
+    console.log(e);
+    if(e.key == "Enter") {
+        valider();
+    }
+    else;
+
+});
