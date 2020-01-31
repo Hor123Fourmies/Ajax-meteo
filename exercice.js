@@ -63,7 +63,7 @@ function valider() {
         if (this.readyState === 4 && this.status === 200){
             console.log(this.responseText);
             var json = JSON.parse(this.responseText);
-            document.getElementById('date').innerHTML = NomDuJour (date)+" " + date.getDay()+" " +(NomDuMois (date))+" "+date.getFullYear();
+            document.getElementById('date').innerHTML = NomDuJour (date)+" " + date.getDate()+" " +(NomDuMois (date))+" "+date.getFullYear();
             document.getElementById('temperatureActuelle').innerHTML = Math.round(json.main.temp) + "°C";
             document.getElementById('long').innerHTML ="Longitude : " + json.coord.lon;
             document.getElementById('lat').innerHTML ="Latitude : " + json.coord.lat;
