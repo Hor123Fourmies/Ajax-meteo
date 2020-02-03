@@ -23,6 +23,7 @@ if(isset($_GET['ville']) && !empty($_GET['ville'])) {
     // fermeture des ressources
     curl_close($ch);
 
+
     json_encode($ch);
 
 

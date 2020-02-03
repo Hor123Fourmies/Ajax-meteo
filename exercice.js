@@ -72,6 +72,7 @@ function valider() {
             document.getElementById('pressAtm').innerHTML ="Pression atmosphérique : " + json.main.pressure + " Pa";
             document.getElementById('vitVent').innerHTML ="Vitesse du vent : " + json.wind.speed + " km/h";
             document.getElementById('humidite').innerHTML ="Humidité : " + json.main.humidity+ " %";
+            //document.getElementById('description').innerHTML ="Ville : " + json.name;
         }
     };
 
