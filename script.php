@@ -13,6 +13,7 @@ if(isset($_GET['ville']) && !empty($_GET['ville'])) {
 
     $ch = curl_init();
 
+
     // configuration des options
     curl_setopt($ch, CURLOPT_URL, $url);
     curl_setopt($ch, CURLOPT_HEADER, 0);
@@ -24,7 +25,7 @@ if(isset($_GET['ville']) && !empty($_GET['ville'])) {
     curl_close($ch);
 
 
-    json_encode($ch);
+    //json_encode($ch);
 
 
     /*
